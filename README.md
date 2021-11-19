@@ -1,2 +1,2 @@
-# Project_Algoritma_Python
+# Project Algoritma Python
 Kumpulan Kode Algoritma Python Sederhana
