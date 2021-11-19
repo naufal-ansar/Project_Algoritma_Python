@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-18 06:55:27 PM"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLVRUUUkwTVU7MjAyMS0xMS0xODswNjoxMjoxNyBQTTsyNzA4"/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLVRUUUkwTVU7MjAyMS0xMS0xODswNjo1NToyNyBQTTsxOzI4MjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Keluaran: Naufal Ariq Wijaya&#13;&#10;211080200045&quot;" newline="True"/>
+            <declare name="Bilangan" type="Integer" array="False" size=""/>
+            <output expression="&quot;Menampilkan bilangan 0 s.d 5&quot;" newline="True"/>
+            <assign variable="Bilangan" expression="0"/>
+            <while expression="Bilangan &lt; 5">
+                <assign variable="Bilangan" expression="Bilangan + 1"/>
+                <output expression="Bilangan" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

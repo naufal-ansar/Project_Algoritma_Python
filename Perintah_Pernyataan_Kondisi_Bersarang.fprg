@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-14 10:36:17 PM"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLVRUUUkwTVU7MjAyMS0xMS0xMjsxMDoyMzo1MyBQTTsyNjk5"/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLVRUUUkwTVU7MjAyMS0xMS0xNDsxMDozNjoxNyBQTTs1OzI4MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama, nim, prodi, kelas, semester, matkul" type="String" array="False" size=""/>
+            <assign variable="semester" expression="&quot;1&quot;"/>
+            <input variable="nama"/>
+            <input variable="nim"/>
+            <input variable="prodi"/>
+            <input variable="kelas"/>
+            <if expression="prodi == &quot;informatika&quot;">
+                <then>
+                    <if expression="kelas == &quot;A&quot;">
+                        <then>
+                            <assign variable="matkul" expression="&quot;algoritma pemrograman&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="kelas == &quot;B&quot;">
+                        <then>
+                            <assign variable="matkul" expression="&quot;algoritma struktur data&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="kelas == &quot;C&quot;">
+                        <then>
+                            <assign variable="matkul" expression="&quot;seni budaya&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else>
+                    <if expression="kelas == &quot;A&quot;">
+                        <then>
+                            <assign variable="matkul" expression="&quot;pendidikan agama islam&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="kelas == &quot;B&quot;">
+                        <then>
+                            <assign variable="matkul" expression="&quot;pancasila&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="kelas == &quot;C&quot;">
+                        <then>
+                            <assign variable="matkul" expression="&quot;seni budaya&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <output expression="semester" newline="True"/>
+            <output expression="matkul" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

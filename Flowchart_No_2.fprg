@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-18 09:00:35 PM"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLVRUUUkwTVU7MjAyMS0xMS0xMjsxMTowMzoyNCBQTTsyNjk2"/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLVRUUUkwTVU7MjAyMS0xMS0xODswOTowMDozNSBQTTszOzI4MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bioskop" type="String" array="False" size=""/>
+            <declare name="hargatiket, pengunjung" type="Integer" array="False" size=""/>
+            <input variable="bioskop"/>
+            <input variable="hargatiket"/>
+            <input variable="pengunjung"/>
+            <if expression="hargatiket&gt;= 50000">
+                <then>
+                    <output expression="&quot;Tiket VIP&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tiket reguler&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="pengunjung * hargatiket" newline="True"/>
+            <if expression="hargatiket == 50000 &amp;&amp; pengunjung == 1">
+                <then>
+                    <output expression="&quot;Tiket VIP&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tiket Reguler&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="pengunjung * hargatiket" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

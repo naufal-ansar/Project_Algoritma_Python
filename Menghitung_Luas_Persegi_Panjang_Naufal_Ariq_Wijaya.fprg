@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DBWEB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-11 06:27:26 PM"/>
+        <attribute name="created" value="REJXRUI7REVTS1RPUC1ITDJTNzBKOzIwMjEtMTEtMTE7MDY6MjI6MDQgUE07MjY2NA=="/>
+        <attribute name="edited" value="REJXRUI7REVTS1RPUC1ITDJTNzBKOzIwMjEtMTEtMTE7MDY6Mjc6MjYgUE07MTsyNzgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="L, Panjang, Lebar" type="Integer" array="False" size=""/>
+            <assign variable="Panjang" expression="10"/>
+            <assign variable="Lebar" expression="12"/>
+            <assign variable="L" expression="Panjang*Lebar"/>
+            <output expression="L" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

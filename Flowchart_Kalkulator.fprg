@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-17 01:04:45 AM"/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLVRUUUkwTVU7MjAyMS0xMS0xNzsxMjo0MDoyMiBBTTsyNjg2"/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLVRUUUkwTVU7MjAyMS0xMS0xNzswMTowNDo0NSBBTTsyOzI3OTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pil, x, y" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kalkulator sederhana python&#13;&#10;1. penjumlahan&#13;&#10;2. Pengurangan&#13;&#10;3. Perkalian&#13;&#10;4. Pembagian&#13;&#10;5. Sisa Bagi&#13;&#10;6. Kuadrat&quot;" newline="True"/>
+            <input variable="pil"/>
+            <if expression="pil == 1">
+                <then>
+                    <input variable="x"/>
+                    <input variable="y"/>
+                    <output expression="x + y" newline="True"/>
+                    <breakpoint/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pil == 2">
+                <then>
+                    <input variable="x"/>
+                    <input variable="y"/>
+                    <output expression="x - y" newline="True"/>
+                    <breakpoint/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pil == 3">
+                <then>
+                    <input variable="x"/>
+                    <input variable="y"/>
+                    <output expression="x * y" newline="True"/>
+                    <breakpoint/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pil == 4">
+                <then>
+                    <input variable="x"/>
+                    <input variable="y"/>
+                    <output expression="x / y" newline="True"/>
+                    <breakpoint/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pil == 5">
+                <then>
+                    <input variable="x"/>
+                    <input variable="y"/>
+                    <output expression="x % y" newline="True"/>
+                    <breakpoint/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pil == 6">
+                <then>
+                    <input variable="x"/>
+                    <input variable="y"/>
+                    <output expression="x ^ y" newline="True"/>
+                    <breakpoint/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Pilihan anda salah&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
