@@ -2,6 +2,7 @@ nama = input("Nama Mhs:")
 nim = input("Nim Mhs:")
 prodi = input("Prodi:")
 kelas = input("Kelas:")
+semester = input("Semester:")
 
 if(prodi == "informatika"):
     semester = 1
